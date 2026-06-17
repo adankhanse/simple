@@ -1,0 +1,415 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0a0a0a;
+}
+
+.start {
+    width: 100%;
+    
+    min-height: 100vh;
+    padding-bottom: 30px;
+
+}
+
+.first {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* margin-top: 1rem; */
+    background-color: #121212;
+    padding: 18px 0;
+}
+
+.first h2 {
+    color: rgb(156, 163, 175);
+    font-size: 39px;
+    margin-top: 8px;
+}
+
+.first img {
+    width: 48px;
+    margin-top: 10px;
+    /* height: 70px; */
+}
+
+.line {
+    background-color: rgba(255, 255, 255, 0.995);
+    opacity: 0.1;
+}
+
+.second {
+    text-align: center;
+    color: rgb(242, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2.2rem;
+
+}
+
+/* .second h1{ */
+/* font-size: 29px; */
+/* } */
+
+.second p {
+    margin-top: 1rem;
+    color: rgb(140, 140, 140);
+}
+
+.third {
+    /* max-width: 600px; */
+    width: 40%;
+    /* padding: 19px 16px; */
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+}
+
+.cardss {
+    width: 100%;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 19px 16px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+
+}
+
+.cardss input {
+    width: 100%;
+    background: transparent;
+    /* white hata diya */
+    border: none;
+    /* border hata diya */
+    outline: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.cardss input::placeholder {
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+.cardss:focus-within {
+    border-color: hsl(142, 70%, 45%);
+}
+
+
+
+.fourth img {
+    width: 55px;
+
+}
+
+.fourth {
+    width: 40%;
+    /* border: 1px solid gray; */
+    height: 30%;
+    border-radius: 15px;
+    margin-top: 2rem;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto 0;
+
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+
+}
+
+.cards {
+    width: 90%;
+    height: 60px;
+}
+
+.cards {
+    width: 100%;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 19px 16px;
+    /* border: 1px solid gray; */
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+
+}
+
+.cards input {
+    width: 100%;
+    background: transparent;
+    /* white hata diya */
+    border: none;
+    /* border hata diya */
+    outline: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.cards input::placeholder {
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+.cards:focus-within {
+    border-color: hsl(142, 70%, 45%);
+}
+
+
+.fourth h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fifth {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 8px; */
+    font-size: 13px;
+}
+
+.fourth {
+    width: 40%;
+    /* height: 30%; */
+    height: auto;
+}
+
+.sixth {
+    width: 39%;
+    height: 40%;
+}
+
+
+
+/* .third,
+.fourth {
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; */
+/* } */
+
+.fourth .cards {
+    width: 100%;
+}
+
+.sixth img {
+    width: 55px;
+}
+
+.sixth {
+    width: 40%;
+    /* border: 1px solid gray; */
+    height: 40%;
+    border-radius: 15px;
+    margin-top: 2rem;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin: 2rem auto 0;
+
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px){
+
+    .third,
+    .fourth,
+    .sixth{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .fourth,
+    .sixth{
+        width: 90%;
+        padding: 15px;
+        
+    }
+
+    .fourth{
+        height: auto;
+    }
+
+    .sixth{
+        height: auto;
+        
+    }
+
+    .first h2{
+        font-size: 28px;
+    }
+
+    .second h1{
+        font-size: 28px;
+    }
+
+    .cardss{
+        padding: 14px;
+        border-radius: 10px;
+    }
+
+    .cardss input{
+        font-size: 14px;
+    }
+
+    .third{
+        height: auto;
+    }
+
+
+}
+.wow {
+    display: flex;
+}
+
+.wow h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    /* font-weight: 700; */
+    font-size: 18px;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    background-color: #242424;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 40%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.sec1 input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #767676;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sec1 input::placeholder {
+    color: #767676;
+}
+
+.sec1:focus-within {
+    border-color: hsl(142, 70%, 45%);
+}
+
+.sec2 {
+    background-color: #242424;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 40%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.sec2 input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #767676;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sec2 input::placeholder {
+    color: #767676;
+}
+
+.sec2:focus-within {
+    border-color: hsl(142, 70%, 45%);
+}
+
+
+.list {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 15px;
+    background-color: #1a1a1a;   
+    border-radius: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    
+}
+
+
+
+.designCard {   
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.253);
+    position: relative; 
+    flex-direction: row; 
+    justify-content: flex-start;
+}
+
+.list img {
+    width: 55px;
+    height: 70px;
+    border-radius: 9px;
+    margin-bottom: 0.9rem;
+    object-fit: cover; 
+}
+
+.list h4 {
+    color: white; 
+    margin-left: 20px; 
+    padding-right: 40px; 
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+.close-btn {
+    position: absolute;
+    right: 15px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    
+    color: #ff2a54; 
+    font-size: 22px; 
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none; 
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.close-btn:hover {
+    color: #ff4772;
+    transform: translateY(-50%) scale(1.1); 
+}
