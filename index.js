@@ -1,7 +1,7 @@
 let searchInput = document.getElementById('search'); // Class .cardss ke andar ka search input box
 let list = document.querySelector('.list'); // Class .list wala div jahan movies dikhani hain
 let timer; // Typing ke gap ko control karne ke liye variable
-let API_KEY = '1d5f892755eaa53fea76f1e599316c38'; // Aapki TMDB API Key
+ // Aapki TMDB API Key
 
 // 2. Input box par nazar rakhna (jaise hi user type karega, yeh chalega)
 searchInput.addEventListener('input', function(e) {
